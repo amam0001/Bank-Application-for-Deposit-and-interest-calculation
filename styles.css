@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* Use Flexbox to arrange logo and navigation */
+    justify-content: flex-start; /* Move the logo closer to "Home" */
+    align-items: center; /* Vertically center items */
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 50px; /* Adjust the width as per your preference */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    margin-right: 10px; /* Add margin to the right of the logo */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; /* Reduce the margin here */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    color: #008800;
+}
+
+/* Form styles */
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+button,
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #008800;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #006600;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+}
+
+/* Additional styles for specific pages */
+/* Modify or add more styles here as needed */
